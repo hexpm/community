@@ -1,3 +1,7 @@
+# Publisher: github/msch
+#
+# BE AWARE: Because gproc uses {vsn, git} even when tagged you need to manually replace {vsn, git} with {vsn, "0.3.0"}
+# in src/gproc.app.src before releasing!
 defmodule Gproc.Mixfile do
   use Mix.Project
 
@@ -27,7 +31,8 @@ defmodule Gproc.Mixfile do
   defp package do
     [contributors: ["Ulf Wiger", "Joseph Wayne Norton "],
      licenses: ["EPL 1.1"],
-     links: %{"GitHub" => "https://github.com/uwiger/gproc"}]
+     links: %{"GitHub" => "https://github.com/uwiger/gproc"},
+     files: ["LICENSE", "README.md", "include", "priv", "rebar.config", "rebar.config.script", "src"]]
   end
 
   defp fetch do
