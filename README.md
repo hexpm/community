@@ -60,7 +60,8 @@ defmodule ThePackage.Mixfile do
   defp package do
     [contributors: ["Eric Meadows-Jönsson", "José Valim"],
      licenses: ["Apache 2.0"],
-     links: %{"GitHub" => "https://github.com/someone/the_package"}]
+     links: %{"GitHub" => "https://github.com/someone/the_package"},
+     file: [...]] # make sure to add all files necessary for mix to compile the package here. (e.g. rebar.config)
   end
 
   # Metadata for finding the package that will be published

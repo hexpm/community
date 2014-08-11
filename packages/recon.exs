@@ -1,3 +1,4 @@
+# Publisher: github/msch
 defmodule Recon.Mixfile do
   use Mix.Project
 
@@ -18,7 +19,8 @@ defmodule Recon.Mixfile do
   defp package do
     [contributors: ["Frédéric Trottier-Hébert"],
      licenses: ["BSD 3-clause"],
-     links: %{"GitHub" => "https://github.com/ferd/recon"}]
+     links: %{"GitHub" => "https://github.com/ferd/recon"},
+     files: ["LICENSE", "README.md", "src", "rebar"]]
   end
 
   defp fetch do

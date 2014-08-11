@@ -1,3 +1,4 @@
+# Publisher: github/msch
 defmodule Eper.Mixfile do
   use Mix.Project
 
@@ -23,7 +24,8 @@ defmodule Eper.Mixfile do
   defp package do
     [contributors: ["Mats Cronqvist"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/massemanet/eper"}]
+     links: %{"GitHub" => "https://github.com/massemanet/eper"},
+     files: ["AUTHORS", "COPYING", "README", "rebar", "rebar.config", "rebar.config.script", "src"]]
   end
 
   defp fetch do
