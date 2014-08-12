@@ -7,7 +7,7 @@ defmodule Gproc.Mixfile do
 
   def project do
     [app: :gproc,
-     version: "0.3.0",
+     version: "0.3.1",
      description: description,
      package: package,
      fetch: fetch]
@@ -38,6 +38,6 @@ defmodule Gproc.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/uwiger/gproc.git",
-     tag: "0.3"]
+     tag: "0.3.1"]
   end
 end
