@@ -3,7 +3,7 @@ defmodule Triq.Mixfile do
 
   def project do
     [app: :triq,
-      version: "0.0.1",
+      version: "0.1.0",
       description: description,
       package: package,
       deps: [],
