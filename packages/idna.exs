@@ -3,7 +3,7 @@ defmodule Idna.Mixfile do
 
   def project do
     [app: :idna,
-     version: "0.11.2",
+     version: "1.0.1",
      description: description,
      package: package,
      fetch: fetch]
@@ -29,6 +29,6 @@ defmodule Idna.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/benoitc/erlang-idna.git",
-     tag: "hackney-0.11.2"]
+     tag: "1.0.1"]
   end
 end
