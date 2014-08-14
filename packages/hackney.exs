@@ -18,7 +18,7 @@ defmodule Hackney.Mixfile do
 
   defp deps do
     [
-      {:idna, "0.11.2"},
+      {:idna, "1.0.1"},
     ]
   end
 
