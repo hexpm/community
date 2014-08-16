@@ -6,7 +6,7 @@ A package may be maintained by the community because the project authors have no
 
 Community packages are added to this repository as a mixfile with metadata describing the project and how to fetch it. To add a package or add a new version of a package simply send a pull request with the necessary changes to the package mixfile. When the pull request is merged the package will be published.
 
-If your project have been published to Hex through Hex Community and you want to take over ownership send an email to admin@hex.pm with your Hex user details and the admins will transfer the package after verifing your ownership.
+If your project have been published to Hex through Hex Community and you want to take over ownership send an email to support@hex.pm with your Hex user details and the admins will transfer the package after verifing your ownership.
 
 ## Instructions
 
@@ -28,7 +28,7 @@ Instructions for adding a new package to Hex or releasing a new version of a pac
 
 8. Send [pull request](https://help.github.com/articles/creating-a-pull-request)
 
-When the pull request has been merged the package will be published to Hex.
+Please include, in the pull request, why you want the package published and which package(s) is going to depend on it. When the pull request has been merged the package will be published to Hex.
 
 ## Example package file
 
