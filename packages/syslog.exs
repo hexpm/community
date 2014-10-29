@@ -6,7 +6,8 @@ defmodule ErlangSyslog.Mixfile do
      version: "1.0.2",
      description: description,
      package: package,
-     deps: deps]
+     deps: deps,
+     fetch: fetch]
   end
 
   defp deps do
@@ -22,5 +23,11 @@ defmodule ErlangSyslog.Mixfile do
      contributors: ["Andrew Thompson"],
      licenses: ["BSD"],
      links: %{"GitHub" => "https://github.com/Vagabond/erlang-syslog"}]
-   end
+  end
+
+  defp fetch do
+    [scm: :git,
+     url: "https://github.com/Vagabond/erlang-syslog.git",
+     ref: "26d74c89e339297b4c6638d5b578a80fe88170da"]
+  end
 end
