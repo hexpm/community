@@ -6,7 +6,8 @@ defmodule LHttpC.Mixfile do
      version: "1.3.0",
      description: description,
      package: package,
-     deps: deps]
+     deps: deps,
+     fetch: fetch]
   end
 
   defp deps do
@@ -23,4 +24,10 @@ defmodule LHttpC.Mixfile do
      licenses: ["BSD"],
      links: %{"GitHub" => "https://github.com/talko/lhttpc"}]
    end
+
+  defp fetch do
+    [scm: :git,
+     url: "https://github.com/talko/lhttpc.git",
+     ref: "2d01a5f9c7543b77bdd57f44c92e72801f46e423"]
+  end
 end
