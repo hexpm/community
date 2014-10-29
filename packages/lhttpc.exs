@@ -19,7 +19,7 @@ defmodule LHttpC.Mixfile do
   end
 
   defp package do
-    [files: ~w(src include test doc util rebar.config CHANGELOG LICENCE README),
+    [files: ~w(src include doc util rebar.config CHANGELOG LICENCE README),
      contributors: ["Erlang Training and Consulting Ltd."],
      licenses: ["BSD"],
      links: %{"GitHub" => "https://github.com/talko/lhttpc"}]
