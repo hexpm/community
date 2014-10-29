@@ -19,7 +19,7 @@ defmodule ErlangSyslog.Mixfile do
   end
 
   defp package do
-    [files: ~w(src c_src README.md),
+    [files: ~w(src c_src README.md rebar),
      contributors: ["Andrew Thompson"],
      licenses: ["BSD"],
      links: %{"GitHub" => "https://github.com/Vagabond/erlang-syslog"}]
