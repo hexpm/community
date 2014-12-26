@@ -3,7 +3,7 @@ defmodule ErlCloud.Mixfile do
 
   def project do
     [app: :erlcloud,
-     version: "0.9.1",
+     version: "0.9.2-rc.1",
      language: :erlang,
      description: description,
      package: package,
@@ -31,6 +31,6 @@ defmodule ErlCloud.Mixfile do
   defp fetch do
     [scm: :git,
      url: "https://github.com/gleber/erlcloud.git",
-     tag: "v0.9.1"]
+     ref: "596cbcde53b84f78d76e7427573833daa9201c79"]
   end
 end
