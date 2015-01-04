@@ -13,8 +13,7 @@ defmodule ErlCloud.Mixfile do
 
   defp deps do
     [{:jsx, "~> 2.1.1"},
-     {:lhttpc, "~> 1.3.0"},
-     {:meck, "~> 0.8.2"}]
+     {:lhttpc, "~> 1.3.0"}]
   end
 
   defp description do
