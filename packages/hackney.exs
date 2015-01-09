@@ -3,7 +3,7 @@ defmodule Hackney.Mixfile do
 
   def project do
     [app: :hackney,
-     version: "1.0.2",
+     version: "1.0.5",
      description: description,
      package: package,
      deps: deps,
@@ -55,6 +55,6 @@ defmodule Hackney.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/benoitc/hackney.git",
-     tag: "1.0.2"]
+     tag: "1.0.5"]
   end
 end
