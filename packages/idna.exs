@@ -3,7 +3,7 @@ defmodule Idna.Mixfile do
 
   def project do
     [app: :idna,
-     version: "1.0.1",
+     version: "1.0.2",
      description: description,
      package: package,
      fetch: fetch]
@@ -21,14 +21,14 @@ defmodule Idna.Mixfile do
        "Tim Fletcher",
        "Benoit Chesneau",
       ],
-    licenses: ["MIT"],
-    links: %{"GitHub" => "https://github.com/benoitc/erlang-idna"},
-    files: ["src", "ebin", "README.md", "License.txt", "Makefile", "Emakefile" ]]
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/benoitc/erlang-idna"},
+     files: ["src", "ebin", "README.md", "License.txt", "Makefile", "Emakefile"]]
   end
 
   defp fetch do
     [scm: :git,
      url: "git://github.com/benoitc/erlang-idna.git",
-     tag: "1.0.1"]
+     tag: "1.0.2"]
   end
 end
