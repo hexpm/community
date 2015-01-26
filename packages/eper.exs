@@ -4,7 +4,7 @@ defmodule Eper.Mixfile do
 
   def project do
     [app: :eper,
-     version: "0.85.0",
+     version: "0.90.0",
      description: description,
      package: package,
      fetch: fetch]
@@ -25,12 +25,12 @@ defmodule Eper.Mixfile do
     [contributors: ["Mats Cronqvist"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/massemanet/eper"},
-     files: ["AUTHORS", "COPYING", "README", "rebar", "rebar.config", "rebar.config.script", "src"]]
+     files: ["AUTHORS", "COPYING", "README", "rebar", "rebar.config", "rebar.config.script", "src", "priv"]]
   end
 
   defp fetch do
     [scm: :git,
      url: "git://github.com/massemanet/eper.git",
-     tag: "0.85.0"]
+     tag: "0.90.0"]
   end
 end
