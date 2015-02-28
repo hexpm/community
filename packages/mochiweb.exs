@@ -31,6 +31,6 @@ defmodule Mochiweb.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git@github.com:mochi/mochiweb.git",
-     tag: "2.12.2"]
+     tag: "v2.12.2"]
   end
 end
