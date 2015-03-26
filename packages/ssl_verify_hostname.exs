@@ -3,7 +3,7 @@ defmodule Hackney.Mixfile do
 
   def project do
     [app: :ssl_verify_hostname,
-     version: "1.0.1",
+     version: "1.0.3",
      description: description,
      package: package,
      fetch: fetch]
@@ -25,6 +25,6 @@ defmodule Hackney.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/benoitc/ssl_verify_hostname.git",
-     tag: "1.0.1"]
+     tag: "1.0.3"]
   end
 end
