@@ -22,7 +22,7 @@ defmodule Yamerl.Mixfile do
   end
 
   defp package do
-    [files: ~w(src include rebar.config),
+    [files: ~w(src include rebar.config configure.ac),
      contributors: ["Yakaz", "Jean-Sébastien Pédron"],
      licenses: ["BSD 2-Clause"],
      links: %{
@@ -34,6 +34,6 @@ defmodule Yamerl.Mixfile do
    defp fetch do
      [scm: :git,
       url: "git://github.com/yakaz/yamerl.git",
-      tag: "v0.3.1-1"]
+      tag: "v0.3.2-1"]
    end
 end
