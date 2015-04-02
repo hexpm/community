@@ -18,8 +18,8 @@ defmodule Hackney.Mixfile do
 
   defp deps do
     [
-      {:idna, "1.0.2"},
-      {:ssl_verify_hostname, "1.0.3"},
+      {:idna, "~> 1.0"},
+      {:ssl_verify_hostname, "~> 1.0"},
     ]
   end
 
