@@ -3,7 +3,7 @@ defmodule RabbitCommon.Mixfile do
 
   def project do
     [app: :rabbit_common,
-     version: "3.4.0",
+     version: "3.5.0",
 
      deps: deps,
      description: description,
@@ -36,6 +36,6 @@ defmodule RabbitCommon.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/jbrisbin/rabbit_common.git",
-     tag: "rabbitmq-3.4.0-community"]
+     tag: "rabbitmq-3.5.0"]
   end
 end
