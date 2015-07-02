@@ -3,7 +3,7 @@ defmodule Cowlib.Mixfile do
 
   def project do
     [app: :cowlib,
-     version: "1.2.0",
+     version: "1.3.0",
 
      description: description,
      package: package,
@@ -26,6 +26,6 @@ defmodule Cowlib.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/ninenines/cowlib.git",
-     tag: "1.2.0"]
+     tag: "1.3.0"]
   end
 end
