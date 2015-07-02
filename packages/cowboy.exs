@@ -1,9 +1,10 @@
 defmodule Cowboy.Mixfile do
   use Mix.Project
+  @version "1.0.1"
 
   def project do
     [app: :cowboy,
-     version: "1.0.0",
+     version: @version,
 
      description: description,
      package: package,
@@ -32,6 +33,6 @@ defmodule Cowboy.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/ninenines/cowboy.git",
-     tag: "1.0.0"]
+     tag: @version]
   end
 end
