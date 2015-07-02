@@ -3,7 +3,7 @@ defmodule Ranch.Mixfile do
 
   def project do
     [app: :ranch,
-     version: "1.0.0",
+     version: "1.1.0",
 
      description: description,
      package: package,
@@ -26,6 +26,6 @@ defmodule Ranch.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/ninenines/ranch.git",
-     tag: "1.0.0"]
+     tag: "1.1.0"]
   end
 end
