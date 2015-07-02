@@ -19,7 +19,7 @@ defmodule Cowboy.Mixfile do
   end
 
   defp deps do
-    [{:ranch, "~> 1.0.0"},
+    [{:ranch, "~> 1.0"},
      {:cowlib, "~> 1.0.0"}]
   end
 
