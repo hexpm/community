@@ -12,7 +12,7 @@ defmodule Ezmq.Mixfile do
 
   defp deps do
     [{:lager, "~> 2.1.1"},
-     {:gen_listener_tcp, "~> 0.3.1"]
+     {:gen_listener_tcp, "~> 0.3.1"}]
   end
 
   defp description do
