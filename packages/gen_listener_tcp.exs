@@ -29,7 +29,7 @@ defmodule GenListenerTcp.Mixfile do
                     "Naitik Shah", 
                     "Robin Haberkorn", 
                     "Willy Failla",
-                    "Yury Gargay"]
+                    "Yury Gargay"],
      links: %{"GitHub" => "https://github.com/travelping/gen_listener_tcp"},
      files: ["examples", "src", "tetrapak", "NEWS.md", "README.md", "rebar.config"]]
   end
