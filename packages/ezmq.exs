@@ -3,7 +3,7 @@ defmodule Ezmq.Mixfile do
 
   def project do
     [app: :ezmq,
-     version: "0.2.0",
+     version: "0.2.1",
      deps: deps,
      description: description,
      package: package,
@@ -12,7 +12,7 @@ defmodule Ezmq.Mixfile do
 
   defp deps do
     [{:lager, "~> 2.1.1"},
-     {:gen_listener_tcp, "~> 0.3.1"}]
+     {:gen_listener_tcp, "~> 0.3.2"}]
   end
 
   defp description do
@@ -36,6 +36,6 @@ defmodule Ezmq.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/zeromq/ezmq.git",
-     tag: "0.2"]
+     tag: "0.2.1"]
   end
 end
