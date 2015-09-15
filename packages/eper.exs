@@ -4,7 +4,7 @@ defmodule Eper.Mixfile do
 
   def project do
     [app: :eper,
-     version: "0.93.0",
+     version: "0.94.0",
      description: description,
      package: package,
      fetch: fetch]
@@ -31,6 +31,6 @@ defmodule Eper.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/massemanet/eper.git",
-     tag: "0.93.0"]
+     tag: "0.94.0"]
   end
 end
