@@ -4,7 +4,7 @@ defmodule Recon.Mixfile do
 
   def project do
     [app: :recon,
-     version: "2.2.0",
+     version: "2.2.1",
      description: description,
      package: package,
      fetch: fetch]
@@ -26,6 +26,6 @@ defmodule Recon.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/ferd/recon.git",
-     tag: "2.2.0"]
+     tag: "2.2.1"]
   end
 end
