@@ -3,7 +3,7 @@ defmodule ErlCloud.Mixfile do
 
   def project do
     [app: :erlcloud,
-     version: "0.9.2",
+     version: "0.12.0",
      language: :erlang,
      description: description,
      package: package,
@@ -12,9 +12,9 @@ defmodule ErlCloud.Mixfile do
   end
 
   defp deps do
-    [{:jsx, "~> 2.1"},
+    [{:jsx, "~> 2.8"},
      {:lhttpc, "~> 1.3"},
-     {:meck, "~> 0.8.2"}]
+     {:meck, "~> 0.8"}]
   end
 
   defp description do
@@ -31,6 +31,6 @@ defmodule ErlCloud.Mixfile do
   defp fetch do
     [scm: :git,
      url: "https://github.com/gleber/erlcloud.git",
-     tag: "v0.9.2"]
+     tag: "0.12.0"]
   end
 end
