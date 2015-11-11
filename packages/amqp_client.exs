@@ -1,10 +1,10 @@
 defmodule AMQPClient.Mixfile do
   use Mix.Project
+  @version "3.5.6"
 
   def project do
     [app: :amqp_client,
-     version: "3.5.0",
-
+     version: @version,
      deps: deps,
      description: description,
      package: package,
@@ -12,7 +12,7 @@ defmodule AMQPClient.Mixfile do
   end
 
   defp deps do
-    [{:rabbit_common, "~> 3.5.0"}]
+    [{:rabbit_common, "~> 3.5.6"}]
   end
 
   defp description do
@@ -35,6 +35,6 @@ defmodule AMQPClient.Mixfile do
   defp fetch do
     [scm: :git,
      url: "git://github.com/jbrisbin/amqp_client.git",
-     tag: "rabbitmq-3.5.0"]
+     tag: "rabbitmq-#{@version}"]
   end
 end
