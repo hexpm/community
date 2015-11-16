@@ -1,12 +1,14 @@
 # Hex Community
 
+*Community packages are being discontinued now that Rebar3 and its Hex support is reaching maturity. Existing packages will be continued to be maintained but will eventually be phased out, new packages will not be added. To request ownership of a package email support@hex.pm or open an issue here.*
+
 Hex community are packages the community maintains on Hex.
 
 A package may be maintained by the community because the project authors have not yet published it to Hex.
 
 Community packages are added to this repository as a mixfile with metadata describing the project and how to fetch it. To add a package or add a new version of a package simply send a pull request with the necessary changes to the package mixfile. When the pull request is merged the package will be published.
 
-If your project have been published to Hex through Hex Community and you want to take over ownership send an email to support@hex.pm with your Hex user details and the admins will transfer the package after verifing your ownership.
+If your project have been published to Hex through Hex Community and you want to take over ownership send an email to support@hex.pm with your Hex user details and the admins will transfer the package after verifying your ownership.
 
 ## Instructions
 
